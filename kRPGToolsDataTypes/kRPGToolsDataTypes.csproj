@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{f89c2fa7-798a-4573-851f-5a39f5ad9608}</ProjectGuid>
+    <ProjectGuid>{F89C2FA7-798A-4573-851F-5A39F5AD9608}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>kRPGToolsDataTypes</RootNamespace>
@@ -37,7 +37,11 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IGender.cs" />
+    <Compile Include="Interfaces\IRace.cs" />
+    <Compile Include="Interfaces\IRelationship.cs" />
+    <Compile Include="Interfaces\ISex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
@@ -48,5 +52,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>

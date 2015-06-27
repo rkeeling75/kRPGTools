@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace kRPGToolsDataTypes
+namespace kRPGToolsDataTypes.Interfaces
 {
-    public class Class1
+    interface IEntity
     {
     }
 }
