@@ -27,8 +27,16 @@ namespace kRPGToolsDataTypes.Interfaces
         /// </summary>
         ISex Sex { get; }
         /// <summary>
+        /// The date of the entities birth
+        /// </summary>
+        IDate BirthDate { get; }
+        /// <summary>
         /// Number of relationships the entity is involved in. Husband, enemy, lord, daughter, landlord, etc.
         /// </summary>
         IEnumerable<IRelationship> Relationships { get; }
+        /// <summary>
+        /// Number of health statuses the entity may have. This includes death.
+        /// </summary>
+        IEnumerable<IHealthStatus> HealthStatuses { get; } 
     }
 }

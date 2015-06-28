@@ -5,7 +5,7 @@ using System.Text;
 
 namespace kRPGToolsDataTypes.Interfaces
 {
-    interface IGender
+    public interface IGender
     {
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace kRPGToolsDataTypes.Interfaces
 {
-    interface IRace
+    public interface IRace
     {
     }
 }

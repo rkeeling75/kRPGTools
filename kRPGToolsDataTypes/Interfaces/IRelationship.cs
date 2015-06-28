@@ -5,7 +5,7 @@ using System.Text;
 
 namespace kRPGToolsDataTypes.Interfaces
 {
-    interface IRelationship
+    public interface IRelationship
     {
     }
 }
